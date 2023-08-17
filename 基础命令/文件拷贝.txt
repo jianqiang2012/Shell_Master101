@@ -1,0 +1,5 @@
+mv dir1 new_dir 重命名  一个目录 
+cp file1 file2 复制一个文件 
+cp dir/* . 复制一个目录下的所有文件到当前工作目录 
+cp -a /tmp/dir1 . 复制一个目录到当前工作目录 
+cp -a dir1 dir2 复制一个目录 
