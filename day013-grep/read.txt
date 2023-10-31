@@ -1,0 +1,38 @@
+要实现这样的效果 
+
+Running command: x11perf -dot
+  250000000 trep @   0.0001 msec (14000000.0/sec): Dot
+Running command: x11perf -line100
+  100000000 trep @   0.0004 msec (2800000.0/sec): 100-pixel line
+Running command: x11perf -triangle100
+    1500000 trep @   0.0225 msec ( 44400.0/sec): Fill 100x100 equivalent triangle
+Running command: x11perf -trap100
+    1500000 trep @   0.0184 msec ( 54300.0/sec): Fill 100x100 trapezoid
+Running command: x11perf -rect100
+    1620000 trep @   0.0165 msec ( 60700.0/sec): 100x100 rectangle
+Running command: x11perf -putimage100
+     800000 trep @   0.0336 msec ( 29700.0/sec): PutImage 100x100 square
+Running command: x11perf -complex100
+    1000000 trep @   0.0264 msec ( 37900.0/sec): Fill 100x100 equivalent complex polygons
+Running command: x11perf -srect100
+     540000 trep @   0.0516 msec ( 19400.0/sec): 100x100 stippled rectangle (8x8 stipple)
+Running command: x11perf -circle100
+   40000000 trep @   0.0008 msec (1210000.0/sec): 100-pixel circle
+Running command: x11perf -ellipse100
+   45000000 trep @   0.0007 msec (1470000.0/sec): 100-pixel ellipse
+Running command: x11perf -copywinwin100
+    1400000 trep @   0.0200 msec ( 50000.0/sec): Copy 100x100 from window to window
+
+
+
+
+
+
+
+可以使用  cat x11perf_results.txt  |grep  -iE 'Running|trep' 
+
+
+
+ -i  忽略大小写
+ -E  过滤多个关键字
+

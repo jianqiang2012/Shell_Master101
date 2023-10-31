@@ -1,0 +1,179 @@
+Running command: x11perf -dot
+
+x11perf - X11 performance program, version 1.2
+Moba/X server version 12101003 on localhost:10.0
+from sietium-pc
+Tue Oct 31 11:51:38 2023
+
+Sync time adjustment is 0.6384 msecs.
+
+   50000000 reps @   0.0001 msec (13400000.0/sec): Dot
+   50000000 reps @   0.0001 msec (13900000.0/sec): Dot
+   50000000 reps @   0.0001 msec (14000000.0/sec): Dot
+   50000000 reps @   0.0001 msec (14400000.0/sec): Dot
+   50000000 reps @   0.0001 msec (14400000.0/sec): Dot
+  250000000 trep @   0.0001 msec (14000000.0/sec): Dot
+
+
+--------------------------------------
+Running command: x11perf -line100
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 12008000 on :0
+from sietium-pc
+Mon Oct 30 20:24:44 2023
+
+Sync time adjustment is 0.0207 msecs.
+
+   20000000 reps @   0.0004 msec (2800000.0/sec): 100-pixel line
+   20000000 reps @   0.0004 msec (2790000.0/sec): 100-pixel line
+   20000000 reps @   0.0004 msec (2800000.0/sec): 100-pixel line
+   20000000 reps @   0.0004 msec (2800000.0/sec): 100-pixel line
+   20000000 reps @   0.0004 msec (2800000.0/sec): 100-pixel line
+  100000000 trep @   0.0004 msec (2800000.0/sec): 100-pixel line
+
+--------------------------------------
+Running command: x11perf -triangle100
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 12008000 on :0
+from sietium-pc
+Mon Oct 30 20:26:08 2023
+
+Sync time adjustment is 0.0224 msecs.
+
+     300000 reps @   0.0223 msec ( 44800.0/sec): Fill 100x100 equivalent triangle
+     300000 reps @   0.0233 msec ( 42900.0/sec): Fill 100x100 equivalent triangle
+     300000 reps @   0.0223 msec ( 44800.0/sec): Fill 100x100 equivalent triangle
+     300000 reps @   0.0223 msec ( 44800.0/sec): Fill 100x100 equivalent triangle
+     300000 reps @   0.0223 msec ( 44800.0/sec): Fill 100x100 equivalent triangle
+    1500000 trep @   0.0225 msec ( 44400.0/sec): Fill 100x100 equivalent triangle
+
+--------------------------------------
+Running command: x11perf -trap100
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 12008000 on :0
+from sietium-pc
+Mon Oct 30 20:27:21 2023
+
+Sync time adjustment is 0.0224 msecs.
+
+     300000 reps @   0.0184 msec ( 54300.0/sec): Fill 100x100 trapezoid
+     300000 reps @   0.0184 msec ( 54300.0/sec): Fill 100x100 trapezoid
+     300000 reps @   0.0184 msec ( 54300.0/sec): Fill 100x100 trapezoid
+     300000 reps @   0.0184 msec ( 54300.0/sec): Fill 100x100 trapezoid
+     300000 reps @   0.0185 msec ( 54200.0/sec): Fill 100x100 trapezoid
+    1500000 trep @   0.0184 msec ( 54300.0/sec): Fill 100x100 trapezoid
+
+--------------------------------------
+Running command: x11perf -rect100
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 12008000 on :0
+from sietium-pc
+Mon Oct 30 20:28:29 2023
+
+Sync time adjustment is 0.0234 msecs.
+
+     324000 reps @   0.0165 msec ( 60600.0/sec): 100x100 rectangle
+     324000 reps @   0.0164 msec ( 60800.0/sec): 100x100 rectangle
+     324000 reps @   0.0165 msec ( 60700.0/sec): 100x100 rectangle
+     324000 reps @   0.0164 msec ( 60800.0/sec): 100x100 rectangle
+     324000 reps @   0.0165 msec ( 60600.0/sec): 100x100 rectangle
+    1620000 trep @   0.0165 msec ( 60700.0/sec): 100x100 rectangle
+
+--------------------------------------
+Running command: x11perf -putimage100
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 12008000 on :0
+from sietium-pc
+Mon Oct 30 20:29:35 2023
+
+Sync time adjustment is 0.0230 msecs.
+
+     160000 reps @   0.0336 msec ( 29800.0/sec): PutImage 100x100 square
+     160000 reps @   0.0336 msec ( 29800.0/sec): PutImage 100x100 square
+     160000 reps @   0.0336 msec ( 29700.0/sec): PutImage 100x100 square
+     160000 reps @   0.0337 msec ( 29700.0/sec): PutImage 100x100 square
+     160000 reps @   0.0336 msec ( 29800.0/sec): PutImage 100x100 square
+     800000 trep @   0.0336 msec ( 29700.0/sec): PutImage 100x100 square
+
+--------------------------------------
+Running command: x11perf -complex100
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 12008000 on :0
+from sietium-pc
+Mon Oct 30 20:30:41 2023
+
+Sync time adjustment is 0.0230 msecs.
+
+     200000 reps @   0.0263 msec ( 38000.0/sec): Fill 100x100 equivalent complex polygons
+     200000 reps @   0.0264 msec ( 37900.0/sec): Fill 100x100 equivalent complex polygons
+     200000 reps @   0.0264 msec ( 37900.0/sec): Fill 100x100 equivalent complex polygons
+     200000 reps @   0.0263 msec ( 38000.0/sec): Fill 100x100 equivalent complex polygons
+     200000 reps @   0.0264 msec ( 37900.0/sec): Fill 100x100 equivalent complex polygons
+    1000000 trep @   0.0264 msec ( 37900.0/sec): Fill 100x100 equivalent complex polygons
+
+--------------------------------------
+Running command: x11perf -srect100
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 12008000 on :0
+from sietium-pc
+Mon Oct 30 20:31:47 2023
+
+Sync time adjustment is 0.0231 msecs.
+
+     108000 reps @   0.0517 msec ( 19300.0/sec): 100x100 stippled rectangle (8x8 stipple)
+     108000 reps @   0.0517 msec ( 19300.0/sec): 100x100 stippled rectangle (8x8 stipple)
+     108000 reps @   0.0516 msec ( 19400.0/sec): 100x100 stippled rectangle (8x8 stipple)
+     108000 reps @   0.0515 msec ( 19400.0/sec): 100x100 stippled rectangle (8x8 stipple)
+     108000 reps @   0.0515 msec ( 19400.0/sec): 100x100 stippled rectangle (8x8 stipple)
+     540000 trep @   0.0516 msec ( 19400.0/sec): 100x100 stippled rectangle (8x8 stipple)
+
+--------------------------------------
+Running command: x11perf -circle100
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 12008000 on :0
+from sietium-pc
+Mon Oct 30 20:32:51 2023
+
+Sync time adjustment is 0.0228 msecs.
+
+    8000000 reps @   0.0008 msec (1210000.0/sec): 100-pixel circle
+    8000000 reps @   0.0008 msec (1210000.0/sec): 100-pixel circle
+    8000000 reps @   0.0008 msec (1210000.0/sec): 100-pixel circle
+    8000000 reps @   0.0008 msec (1210000.0/sec): 100-pixel circle
+    8000000 reps @   0.0008 msec (1210000.0/sec): 100-pixel circle
+   40000000 trep @   0.0008 msec (1210000.0/sec): 100-pixel circle
+
+--------------------------------------
+Running command: x11perf -ellipse100
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 12008000 on :0
+from sietium-pc
+Mon Oct 30 20:34:09 2023
+
+Sync time adjustment is 0.0207 msecs.
+
+    9000000 reps @   0.0007 msec (1460000.0/sec): 100-pixel ellipse
+    9000000 reps @   0.0007 msec (1470000.0/sec): 100-pixel ellipse
+    9000000 reps @   0.0007 msec (1470000.0/sec): 100-pixel ellipse
+    9000000 reps @   0.0007 msec (1470000.0/sec): 100-pixel ellipse
+    9000000 reps @   0.0007 msec (1470000.0/sec): 100-pixel ellipse
+   45000000 trep @   0.0007 msec (1470000.0/sec): 100-pixel ellipse
+
+--------------------------------------
+Running command: x11perf -copywinwin100
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 12008000 on :0
+from sietium-pc
+Mon Oct 30 20:35:21 2023
+
+Sync time adjustment is 0.0232 msecs.
+
+     280000 reps @   0.0199 msec ( 50200.0/sec): Copy 100x100 from window to window
+     280000 reps @   0.0200 msec ( 50100.0/sec): Copy 100x100 from window to window
+     280000 reps @   0.0200 msec ( 49900.0/sec): Copy 100x100 from window to window
+     280000 reps @   0.0200 msec ( 49900.0/sec): Copy 100x100 from window to window
+     280000 reps @   0.0200 msec ( 50100.0/sec): Copy 100x100 from window to window
+    1400000 trep @   0.0200 msec ( 50000.0/sec): Copy 100x100 from window to window
+
+--------------------------------------
+
