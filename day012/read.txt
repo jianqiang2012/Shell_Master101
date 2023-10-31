@@ -1,0 +1,49 @@
+#!/bin/bash
+
+commands=("x11perf -dot"
+          "x11perf -line100"
+          "x11perf -triangle100"
+          "x11perf -trap100"
+          "x11perf -rect100"
+          "x11perf -putimage100"
+          "x11perf -complex100"
+          "x11perf -srect100"
+          "x11perf -circle100"
+          "x11perf -ellipse100"
+          "x11perf -copywinwin100")
+
+output_file="x11perf_results.txt"
+
+for command in "${commands[@]}"; do
+    echo "Running command: $command"
+    echo "Running command: $command" >> "$output_file"
+    eval "$command"
+    eval "$command" >> "$output_file"
+    echo "--------------------------------------"
+    echo "--------------------------------------" >> "$output_file"
+done
+
+
+
+在Shell脚本中，${commands[@]}表示将数组commands的所有元素展开。其中@表示所有元素，而{}用于界定数组变量的范围。
+
+在这段代码中，commands是一个包含多个命令的数组。${commands[@]}会将数组中的每个元素逐个展开，以便在循环中使用。对于每次循环迭代，$command将被赋值为commands数组中的一个元素。
+
+
+这段代码是一个for循环，用于迭代执行命令列表中的每个命令。下面是对每行代码的解释：
+
+for command in "${commands[@]}"; do: 这行代码声明了一个for循环，将commands列表中的每个元素依次赋值给command变量。
+
+echo "Running command: $command": 这行代码打印出当前正在执行的命令，其中$command是当前迭代的命令。
+
+echo "Running command: $command" >> "$output_file": 这行代码将当前正在执行的命令以追加的方式写入到指定的输出文件$output_file中。>>操作符表示将输出追加到文件末尾而不覆盖原有内容。
+
+eval "$command": 这行代码使用eval函数来执行当前迭代的命令。eval函数会将字符串作为命令进行解析和执行。
+
+eval "$command" >> "$output_file": 这行代码将当前命令的输出结果以追加的方式写入到指定的输出文件$output_file中。
+
+echo "--------------------------------------": 这行代码打印分隔线，用于区分不同命令的输出。
+
+echo "--------------------------------------" >> "$output_file": 这行代码将分隔线以追加的方式写入到指定的输出文件$output_file中。
+
+通过以上代码，在循环的每次迭代中，会执行一条命令，将命令本身和其输出分别打印到屏幕和指定的输出文件中，并在每个命令之间添加分隔线。这样可以方便地记录每个命令的执行结果，并对输出进行区分和分析。
