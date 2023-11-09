@@ -1,0 +1,9 @@
+我们可以考虑以下情景：我们有一个名为backup.tar的Tar存档，其中包含一些重要的配置文件。现在我们要更新存档中的一个文件，名为config.ini，以确保它是最新的版本
+
+
+tar -uvf backup.tar config.ini
+
+
+
+
+ 如果我们的tar包 中存在需要添加的包，那么config.ini将被更新,当不存在时将被加入到tar 中
